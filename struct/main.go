@@ -24,4 +24,11 @@ func main() {
 	my_person.Change_name("gote")
 	fmt.Printf("this is my person %+v \n", my_person)
 
+	/* internal pointer variable : ) */
+
+	a := 80085
+	b := &a
+	*b = 80087355
+	fmt.Println(b)
+
 }
